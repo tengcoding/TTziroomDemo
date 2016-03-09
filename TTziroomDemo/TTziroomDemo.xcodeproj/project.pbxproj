@@ -15,6 +15,12 @@
 		A5B9DAC41C8E81FD001C29C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B9DAC21C8E81FD001C29C7 /* LaunchScreen.storyboard */; };
 		A5B9DACF1C8E81FD001C29C7 /* TTziroomDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DACE1C8E81FD001C29C7 /* TTziroomDemoTests.m */; };
 		A5B9DADA1C8E81FD001C29C7 /* TTziroomDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAD91C8E81FD001C29C7 /* TTziroomDemoUITests.m */; };
+		A5B9DAE91C8EA8CF001C29C7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAE81C8EA8CF001C29C7 /* TabBarViewController.m */; };
+		A5B9DAEC1C8EAB87001C29C7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAEB1C8EAB87001C29C7 /* HomeViewController.m */; };
+		A5B9DAEF1C8EABD7001C29C7 /* FindRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAEE1C8EABD7001C29C7 /* FindRoomViewController.m */; };
+		A5B9DAF21C8EAC07001C29C7 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAF11C8EAC07001C29C7 /* ServiceViewController.m */; };
+		A5B9DAF51C8EAC3D001C29C7 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAF41C8EAC3D001C29C7 /* LifeViewController.m */; };
+		A5B9DAFB1C8EAD03001C29C7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9DAFA1C8EAD03001C29C7 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		A5B9DAD51C8E81FD001C29C7 /* TTziroomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTziroomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B9DAD91C8E81FD001C29C7 /* TTziroomDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTziroomDemoUITests.m; sourceTree = "<group>"; };
 		A5B9DADB1C8E81FD001C29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B9DAE71C8EA8CF001C29C7 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		A5B9DAE81C8EA8CF001C29C7 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		A5B9DAEA1C8EAB87001C29C7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A5B9DAEB1C8EAB87001C29C7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5B9DAED1C8EABD7001C29C7 /* FindRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindRoomViewController.h; sourceTree = "<group>"; };
+		A5B9DAEE1C8EABD7001C29C7 /* FindRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindRoomViewController.m; sourceTree = "<group>"; };
+		A5B9DAF01C8EAC07001C29C7 /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		A5B9DAF11C8EAC07001C29C7 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
+		A5B9DAF31C8EAC3D001C29C7 /* LifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
+		A5B9DAF41C8EAC3D001C29C7 /* LifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
+		A5B9DAF91C8EAD03001C29C7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A5B9DAFA1C8EAD03001C29C7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,8 @@
 		A5B9DAB31C8E81FD001C29C7 /* TTziroomDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5B9DAE71C8EA8CF001C29C7 /* TabBarViewController.h */,
+				A5B9DAE81C8EA8CF001C29C7 /* TabBarViewController.m */,
 				A5B9DAB71C8E81FD001C29C7 /* AppDelegate.h */,
 				A5B9DAB81C8E81FD001C29C7 /* AppDelegate.m */,
 				A5B9DABA1C8E81FD001C29C7 /* ViewController.h */,
@@ -110,6 +130,16 @@
 				A5B9DAC21C8E81FD001C29C7 /* LaunchScreen.storyboard */,
 				A5B9DAC51C8E81FD001C29C7 /* Info.plist */,
 				A5B9DAB41C8E81FD001C29C7 /* Supporting Files */,
+				A5B9DAEA1C8EAB87001C29C7 /* HomeViewController.h */,
+				A5B9DAEB1C8EAB87001C29C7 /* HomeViewController.m */,
+				A5B9DAED1C8EABD7001C29C7 /* FindRoomViewController.h */,
+				A5B9DAEE1C8EABD7001C29C7 /* FindRoomViewController.m */,
+				A5B9DAF01C8EAC07001C29C7 /* ServiceViewController.h */,
+				A5B9DAF11C8EAC07001C29C7 /* ServiceViewController.m */,
+				A5B9DAF31C8EAC3D001C29C7 /* LifeViewController.h */,
+				A5B9DAF41C8EAC3D001C29C7 /* LifeViewController.m */,
+				A5B9DAF91C8EAD03001C29C7 /* ProfileViewController.h */,
+				A5B9DAFA1C8EAD03001C29C7 /* ProfileViewController.m */,
 			);
 			path = TTziroomDemo;
 			sourceTree = "<group>";
@@ -207,6 +237,7 @@
 				TargetAttributes = {
 					A5B9DAB01C8E81FD001C29C7 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 87J24SZYZK;
 					};
 					A5B9DAC91C8E81FD001C29C7 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -270,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B9DAE91C8EA8CF001C29C7 /* TabBarViewController.m in Sources */,
+				A5B9DAFB1C8EAD03001C29C7 /* ProfileViewController.m in Sources */,
 				A5B9DABC1C8E81FD001C29C7 /* ViewController.m in Sources */,
+				A5B9DAF21C8EAC07001C29C7 /* ServiceViewController.m in Sources */,
 				A5B9DAB91C8E81FD001C29C7 /* AppDelegate.m in Sources */,
+				A5B9DAEC1C8EAB87001C29C7 /* HomeViewController.m in Sources */,
+				A5B9DAEF1C8EABD7001C29C7 /* FindRoomViewController.m in Sources */,
+				A5B9DAF51C8EAC3D001C29C7 /* LifeViewController.m in Sources */,
 				A5B9DAB61C8E81FD001C29C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TTziroomDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTziroomDemo;
@@ -422,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TTziroomDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTziroomDemo;
