@@ -17,10 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="mDD-hC-m87" id="McI-Ib-ZZY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="mDD-hC-m87">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="aYu-D4-zje"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="0xd-VL-fyZ"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="7mg-Ag-mX7"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="1iD-6v-OcZ"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
         </scene>
     </scenes>

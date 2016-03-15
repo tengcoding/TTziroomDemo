@@ -107,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5B728881C97FFC20074BBF9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9DAEA1C8EAB87001C29C7 /* HomeViewController.h */,
+				A5B9DAEB1C8EAB87001C29C7 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		A5B9DAA81C8E81FD001C29C7 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +141,7 @@
 		A5B9DAB31C8E81FD001C29C7 /* TTziroomDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5B728881C97FFC20074BBF9 /* Home */,
 				A5F22D5D1C914E940096D16B /* GuideView */,
 				A5B9DAE71C8EA8CF001C29C7 /* TabBarViewController.h */,
 				A5B9DAE81C8EA8CF001C29C7 /* TabBarViewController.m */,
@@ -144,8 +154,6 @@
 				A5B9DAC21C8E81FD001C29C7 /* LaunchScreen.storyboard */,
 				A5B9DAC51C8E81FD001C29C7 /* Info.plist */,
 				A5B9DAB41C8E81FD001C29C7 /* Supporting Files */,
-				A5B9DAEA1C8EAB87001C29C7 /* HomeViewController.h */,
-				A5B9DAEB1C8EAB87001C29C7 /* HomeViewController.m */,
 				A5B9DAED1C8EABD7001C29C7 /* FindRoomViewController.h */,
 				A5B9DAEE1C8EABD7001C29C7 /* FindRoomViewController.m */,
 				A5B9DAF01C8EAC07001C29C7 /* ServiceViewController.h */,
