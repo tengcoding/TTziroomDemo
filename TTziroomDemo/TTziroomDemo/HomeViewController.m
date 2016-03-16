@@ -46,12 +46,16 @@
     
     //添加搜索框
     UIButton *searchButton = [[UIButton alloc] initWithFrame:CGRectMake(80, 30, [UIScreen mainScreen].bounds.size.width-90, 30)];
-    searchButton.backgroundColor = [UIColor redColor];
-    UIBezierPath *maskPath1 = [UIBezierPath bezierPathWithRoundedRect:searchButton.bounds byRoundingCorners:UIRectCornerTopRight | UIRectCornerBottomRight cornerRadii:CGSizeMake(5, 5)];
-    CAShapeLayer *maskLayer1 = [[CAShapeLayer alloc] init];
-    maskLayer1.frame = searchButton.bounds;
-    maskLayer1.path = maskPath1.CGPath;
-    searchButton.layer.mask = maskLayer1;
+    [searchButton setTitle:@"请输入您想住的区域或小区" forState:UIControlStateNormal];
+    [searchButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
+//    UIBezierPath *maskPath1 = [UIBezierPath bezierPathWithRoundedRect:searchButton.bounds byRoundingCorners:UIRectCornerTopRight | UIRectCornerBottomRight cornerRadii:CGSizeMake(5, 5)];
+//    CAShapeLayer *maskLayer1 = [[CAShapeLayer alloc] init];
+//    maskLayer1.frame = searchButton.bounds;
+//    maskLayer1.path = maskPath1.CGPath;
+    [searchButton.layer setBorderColor:[UIColor blackColor].CGColor];
+    [searchButton.layer setBorderWidth:1];
+    [searchButton.layer setMasksToBounds:YES];
+//    searchButton.layer.mask = maskLayer1;
     [self.backView addSubview:searchButton];
     
     
